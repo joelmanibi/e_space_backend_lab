@@ -6,7 +6,6 @@ var bcrypt = require("bcryptjs");
 const util = require("util");
 
 exports.signup = (req, res) => {
-
   // Save User to Database
   User.create({
     user_phone: req.body.user_phone,
